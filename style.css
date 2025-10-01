@@ -30,7 +30,7 @@ body {
       color: #fff;
       font-weight: bold;
       text-decoration: none;
-      margin: 0 20px;
+      margin: 0 ;
       padding: 5px 10px;
       display: inline-flex;
       align-items: center;
@@ -52,9 +52,10 @@ body {
     .navbar a ion-icon {
       width: 25px;
       height: 25px;
+      text-align: center;
     }
     .navbar a:hover {
-      color: yellow;
+      color: rgb(150, 61, 28);
     }
     .search {
       display: flex;
@@ -126,11 +127,9 @@ body {
     .menu-list a {
       color: rgb(173, 58, 58);
       text-decoration: none;
-      font-weight: 700;
-    .menu-list span {
-        text-decoration: underline;
+      font-weight:700;
     }
-    }
+
     .back-top {
       display: inline-block;
       margin: 6px 0;
@@ -203,6 +202,6 @@ body {
       color: #fff;
       font-style: italic;
     }
-    .menu-list {
+    
 
-    }
+    
